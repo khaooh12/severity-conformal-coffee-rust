@@ -5,6 +5,8 @@ Mã nguồn, tệp chia fold và dữ liệu kết quả đi kèm bài báo:
 > Trần Trọng Khang, Phan Thị Hường. *Tập dự đoán conformal theo mức độ cho chẩn đoán bệnh gỉ sắt lá cà phê.*
 > Khoa Công nghệ Thông tin, Trường Đại học Lạc Hồng, 2026 (bản thảo gửi Tạp chí Khoa học Lạc Hồng).
 
+Kho mã: https://github.com/khaooh12/severity-conformal-coffee-rust
+
 Bài kiểm tra cách "chỉ trả lời khi độ tin cậy ≥ một ngưỡng chung" trên bài toán phân loại năm dải (lá khoẻ,
 nhện đỏ, gỉ sắt nhẹ, trung bình, nặng) của bộ RoCoLe (1.559 ảnh lá cà phê vối), so sánh hiệu chỉnh nhiệt độ,
 vector scaling, Dirichlet calibration, ngưỡng theo dải và dự đoán conformal (biên / theo dải; điểm `1 − p`,
