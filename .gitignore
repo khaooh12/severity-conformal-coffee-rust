@@ -1,0 +1,18 @@
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ipynb_checkpoints/
+*.egg-info/
+
+# Ảnh RoCoLe và tạo phẩm sinh ra từ ảnh — không phân phối lại
+data/raw/
+data/external/
+data/processed/
+data/*.zip
+data/*.zip.sha256
+models/
+
+# Hai tệp hợp đồng tái lập ĐƯỢC commit:
+#   data/interim/rocole_index.csv
+#   data/splits/rocole_folds.json

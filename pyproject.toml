@@ -1,0 +1,16 @@
+[project]
+name = "severity-conformal-coffee-rust"
+version = "1.0.0"
+description = "Tập dự đoán conformal theo mức độ cho chẩn đoán bệnh gỉ sắt lá cà phê (RoCoLe) — mã tái lập bài báo"
+requires-python = ">=3.11"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

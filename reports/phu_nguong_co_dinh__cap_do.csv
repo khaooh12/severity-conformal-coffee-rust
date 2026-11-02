@@ -1,0 +1,4 @@
+model,macro_f1_dai_toan_bo,nguong,n_tra_loi,do_phu,do_phu_ci_lo,do_phu_ci_hi,accuracy,accuracy_ci_lo,accuracy_ci_hi,macro_f1_dai,macro_f1_dai_ci_lo,macro_f1_dai_ci_hi,do_phu__healthy,do_phu__red_spider_mite,do_phu__rust_nhe,do_phu__rust_trung_binh,do_phu__rust_nang
+resnet152@capdo-theo_cay,0.6295,0.7,1159,0.7434,0.7221,0.7638,0.8602,0.8411,0.8791,0.6864,0.6384,0.7284,0.9368,0.5689,0.5785,0.4699,0.5055
+resnet18@capdo-theo_cay,0.6242,0.7,816,0.5234,0.5016,0.5442,0.9265,0.9061,0.9449,0.71,0.6211,0.7844,0.8142,0.2635,0.2791,0.1205,0.1319
+resnet50@capdo-theo_cay,0.638,0.7,969,0.6216,0.6,0.6436,0.8916,0.8711,0.9097,0.6808,0.612,0.741,0.8799,0.3952,0.4186,0.2349,0.2637

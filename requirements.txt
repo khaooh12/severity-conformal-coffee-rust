@@ -1,0 +1,11 @@
+# Đủ để sinh lại mọi bảng của bài và chạy tests (CPU). Ghim đúng bản đã dùng.
+numpy==2.4.6
+pandas==3.0.5
+scipy==1.17.1
+scikit-learn==1.9.0   # chỉ `splits` (chia fold) và `doctor` dùng; tệp chia đã có sẵn
+Pillow==12.3.0        # chỉ `images` (cắt ảnh) dùng
+pytest>=8.0
+
+# --- Chỉ khi huấn luyện lại (Google Colab, notebook 02 / 02b) ---
+# Không ghim torch: Colab cấp sẵn bản khớp CUDA của runtime.
+# timm==1.0.30   (lượt 2–3; lượt 1 dùng timm 1.0.29)
